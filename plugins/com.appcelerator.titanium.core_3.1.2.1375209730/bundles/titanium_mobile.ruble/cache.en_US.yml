@@ -1,0 +1,1124 @@
+!!com.aptana.scripting.model.BundleElement
+author: Thomas Aylott/Appcelerator
+children:
+- !!com.aptana.scripting.model.MenuElement
+  children:
+  - children: &id001 []
+    commandName: Mobile Developer Center
+    customProperties: null
+    displayName: Mobile Developer Center
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: Ti.API.debug
+    customProperties: null
+    displayName: Ti.API.debug
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: Ti.API.info
+    customProperties: null
+    displayName: Ti.API.info
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: Ti.API.log
+    customProperties: null
+    displayName: Ti.API.log
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: Ti.App.fireEvent
+    customProperties: null
+    displayName: Ti.App.fireEvent
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: Ti.App.addEventListener
+    customProperties: null
+    displayName: Ti.App.addEventListener
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: createAnimation
+    customProperties: null
+    displayName: createAnimation
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: createAudioPlayer
+    customProperties: null
+    displayName: createAudioPlayer
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: createButton
+    customProperties: null
+    displayName: createButton
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: createCamera
+    customProperties: null
+    displayName: createCamera
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: createContact
+    customProperties: null
+    displayName: createContact
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: createHttpClientBinary
+    customProperties: null
+    displayName: createHttpClientBinary
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: createHttpClientXml
+    customProperties: null
+    displayName: createHttpClientXml
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: createImageView
+    customProperties: null
+    displayName: createImageView
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: createLabel
+    customProperties: null
+    displayName: createLabel
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: createPickerMulti
+    customProperties: null
+    displayName: createPickerMulti
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: createPickerSimple
+    customProperties: null
+    displayName: createPickerSimple
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: createProgressBar
+    customProperties: null
+    displayName: createProgressBar
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: createSlider
+    customProperties: null
+    displayName: createSlider
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: createSound
+    customProperties: null
+    displayName: createSound
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: createSwitch
+    customProperties: null
+    displayName: createSwitch
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: createTabbedBar
+    customProperties: null
+    displayName: createTabbedBar
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: createTableView
+    customProperties: null
+    displayName: createTableView
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: createTextField
+    customProperties: null
+    displayName: createTextField
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: createWebView
+    customProperties: null
+    displayName: createWebView
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: appBadge
+    customProperties: null
+    displayName: appBadge
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: base64
+    customProperties: null
+    displayName: base64
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: clipboard
+    customProperties: null
+    displayName: clipboard
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: md5
+    customProperties: null
+    displayName: md5
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: properties
+    customProperties: null
+    displayName: properties
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: tabBadge
+    customProperties: null
+    displayName: tabBadge
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: vibrate
+    customProperties: null
+    displayName: vibrate
+    path: bundle.rb
+    scope: null
+  commandName: Titanium Mobile
+  customProperties: null
+  displayName: Titanium Mobile
+  path: bundle.rb
+  scope: null
+- !!com.aptana.scripting.model.ProjectTemplateElement
+  customProperties: null
+  description: A single window application with a single view - a mostly blank canvas. Recommended for Titanium SDK 2.0 or higher.
+  displayName: Single Window Application
+  icon: http://preview.appcelerator.com/dashboard/img/icons/icon_single_window.png
+  id: Single Window Application
+  location: staging/SingleWindow.zip
+  path: bundle.rb
+  priority: 0
+  scope: null
+  tags: [Classic]
+  type: TITANIUM_MOBILE
+- !!com.aptana.scripting.model.ProjectTemplateElement
+  customProperties: null
+  description: A master detail view, utilizing a native table view component and platform-specific UI and navigation. A starting point for a navigation-based application with hierarchical data, or a stack of windows. Recommended for Titanium SDK 2.0 or higher.
+  displayName: Master/Detail Application
+  icon: http://preview.appcelerator.com/dashboard/img/icons/icon_detail.png
+  id: Master/Detail Application
+  location: staging/MasterDetail.zip
+  path: bundle.rb
+  priority: 0
+  scope: null
+  tags: [Classic]
+  type: TITANIUM_MOBILE
+- !!com.aptana.scripting.model.ProjectTemplateElement
+  customProperties: null
+  description: A tabbed application, consisting of multiple stacks of windows associated with tabs in a tab group.  A starting point for tab-based application with multiple top-level windows. Recommended for Titanium SDK 2.0 or higher.
+  displayName: Tabbed Application
+  icon: http://preview.appcelerator.com/dashboard/img/icons/icon_tabbed.png
+  id: Tabbed Application
+  location: staging/Tabbed.zip
+  path: bundle.rb
+  priority: 0
+  scope: null
+  tags: [Classic]
+  type: TITANIUM_MOBILE
+- !!com.aptana.scripting.model.ProjectTemplateElement
+  customProperties: null
+  description: An application using just a HTML view. Recommended for Titanium SDK 2.0 or higher.
+  displayName: HTML-based Application
+  icon: http://preview.appcelerator.com/dashboard/img/icons/icon_html.png
+  id: HTML-based Application
+  location: staging/HTML.zip
+  path: bundle.rb
+  priority: 0
+  scope: null
+  tags: [Classic]
+  type: TITANIUM_MOBILE
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties: null
+  displayName: Mobile Developer Center
+  input: [selection, word]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: show_as_html
+  path: commands/appcelerator_titanium_mobile_developer_center.rb
+  runType: current_thread
+  scope: meta.project.com.appcelerator.titanium.mobile source.js
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [d]
+  description: null
+  displayName: Ti.API.debug
+  expansion: Ti.API.debug(${0:${TM_SELECTED_TEXT}})
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: meta.project.com.appcelerator.titanium.mobile source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [info]
+  description: null
+  displayName: Ti.API.info
+  expansion: Ti.API.info('${0:log}')
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: meta.project.com.appcelerator.titanium.mobile source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [l]
+  description: null
+  displayName: Ti.API.log
+  expansion: Ti.API.log('${1:info}',${0:${TM_SELECTED_TEXT}})
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: meta.project.com.appcelerator.titanium.mobile source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [ae]
+  description: null
+  displayName: Ti.App.addEventListener
+  expansion: Ti.App.addEventListener('${1:event}', $0);
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: meta.project.com.appcelerator.titanium.mobile source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [fe]
+  description: null
+  displayName: Ti.App.fireEvent
+  expansion: Ti.App.fireEvent('${1:event}'$0)
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: meta.project.com.appcelerator.titanium.mobile source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [button]
+  description: null
+  displayName: createButton
+  expansion: "\n// Create a Button.\nvar ${1:aButton} = Ti.UI.createButton({\n\ttitle\
+    \ : '${1:aButton}',\n\theight : ${2:myHeight},\n\twidth : ${3:myWidth},\n\ttop\
+    \ : ${4:myTop},\n\tleft : ${5:myLeft}\n});\n\n// Listen for click events.\n${1:aButton}.addEventListener('click',\
+    \ function() {\n\talert('\\'${1:aButton}\\' was clicked!');\n});\n\n// Add to\
+    \ the parent view.\n${6:parentView}.add(${1:aButton});\n"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: meta.project.com.appcelerator.titanium.mobile source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [label]
+  description: null
+  displayName: createLabel
+  expansion: "\n// Create a Label.\nvar ${1:aLabel} = Ti.UI.createLabel({\n\ttext\
+    \ : '${1:aLabel}',\n\tcolor : '#${2:textColor}',\n\tfont : {fontSize:${3:myFontSize}},\n\
+    \theight : ${4:myHeight},\n\twidth : ${5:myWidth},\n\ttop : ${6:myTop},\n\tleft\
+    \ : ${7:myLeft},\n\ttextAlign : 'center'\n});\n\n// Add to the parent view.\n\
+    ${8:parentView}.add(${1:aLabel});\n"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: meta.project.com.appcelerator.titanium.mobile source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [imageview]
+  description: null
+  displayName: createImageView
+  expansion: "\n// Create an ImageView.\nvar ${1:anImageView} = Ti.UI.createImageView({\n\
+    \timage : '${2:location}',\n\twidth : ${3:myWidth},\n\theight : ${4:myHeight},\n\
+    \ttop : ${5:myTop},\n\tleft : ${6:myLeft}\n});\n${1:anImageView}.addEventListener('load',\
+    \ function() {\n\tTi.API.info('Image loaded!');\n});\n\n// Add to the parent view.\n\
+    ${7:parentView}.add(${1:anImageView});\n"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: meta.project.com.appcelerator.titanium.mobile source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pickersimple]
+  description: null
+  displayName: createPickerSimple
+  expansion: "\n// Create a Picker.\nvar ${1:aPicker} = Ti.UI.createPicker({\n\tselectionIndicator\
+    \ : true\n});\n\n// Add data to the Picker.\nvar data = [];\ndata[0] = Ti.UI.createPickerRow({title:'Bananas',\
+    \ custom_item:'b'});\ndata[1] = Ti.UI.createPickerRow({title:'Strawberries', custom_item:'s'});\n\
+    data[2] = Ti.UI.createPickerRow({title:'Mangos', custom_item:'m'});\ndata[3] =\
+    \ Ti.UI.createPickerRow({title:'Grapes', custom_item:'g'});\n${1:aPicker}.add(data);\n\
+    \n// Listen for change events.\n${1:aPicker}.addEventListener('change', function(e)\
+    \ {\n\talert('You selected: row:' + e.row.title + ', column: ' + e.column + ',\
+    \ custom_item: ' + e.row.custom_item);\n});\n\n// Add to the parent view.\n${2:parentView}.add(${1:aPicker});\n"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: meta.project.com.appcelerator.titanium.mobile source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pickermulti]
+  description: null
+  displayName: createPickerMulti
+  expansion: "\n// Create a Picker.\nvar ${1:aPicker} = Ti.UI.createPicker({\n\tselectionIndicator\
+    \ : true\n});\n\n// Add data to the Picker.\nvar column1 = Ti.UI.createPickerColumn();\n\
+    column1.addRow(Ti.UI.createPickerRow({title:'Bananas', custom_item:'bna'}));\n\
+    column1.addRow(Ti.UI.createPickerRow({title:'Strawberries', custom_item:'str',\
+    \ selected:true}));\ncolumn1.addRow(Ti.UI.createPickerRow({title:'Mangos', custom_item:'mng'}));\n\
+    column1.addRow(Ti.UI.createPickerRow({title:'Grapes', custom_item:'grp'}));\n\n\
+    var column2 = Ti.UI.createPickerColumn();\ncolumn2.addRow(Ti.UI.createPickerRow({title:\
+    \ 'red'}));\ncolumn2.addRow(Ti.UI.createPickerRow({title: 'green'}));\ncolumn2.addRow(Ti.UI.createPickerRow({title:\
+    \ 'blue'}));\ncolumn2.addRow(Ti.UI.createPickerRow({title: 'orange'}));\n${1:aPicker}.add([column1,column2]);\n\
+    \n// Listen for change events.\n${1:aPicker}.addEventListener('change', function(e)\
+    \ {\n\talert('You selected: row:' + e.row.title + ', column: ' + e.column + ',\
+    \ custom_item: ' + e.row.custom_item);\n});\n\n// Add to the parent view.\n${2:parentView}.add(${1:aPicker});\n"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: meta.project.com.appcelerator.titanium.mobile source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [switch]
+  description: null
+  displayName: createSwitch
+  expansion: "\n// Create a Switch.\nvar ${1:aSwitch} = Ti.UI.createSwitch({\n\tvalue\
+    \ : false,\n\ttop : ${2:myTop},\n\tleft : ${3:myLeft}\n});\n\n// Listen for change\
+    \ events.\n${1:aSwitch}.addEventListener('change', function(e) {\n\tTi.API.info('Event\
+    \ value: ' + e.value + ', switch value: ' + ${1:aSwitch}.value);\n});\n\n// Add\
+    \ to the parent view.\n${4:parentView}.add(${1:aSwitch});\n"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: meta.project.com.appcelerator.titanium.mobile source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [appbadge]
+  description: null
+  displayName: appBadge
+  expansion: "\n// Create a Button to toggle the App Badge.\nvar appBadgeToggleButton\
+    \ = Ti.UI.createButton({\n\ttitle : 'Toggle App Badge',\n\twidth : 200,\n\theight\
+    \ : 40,\n\ttop : 10\n});\nvar badgeVal = 0;\n\n// Listen for click events.\nappBadgeToggleButton.addEventListener('click',\
+    \ function() {\n\tif (!Ti.UI.iPhone.appBadge) {\n\t\tTi.UI.iPhone.appBadge = ++badgeVal;\n\
+    \t\tTi.API.info('The App badge has the value: ' + badgeVal);\n\t} else {\n\t\t\
+    Ti.UI.iPhone.appBadge = null;\n\t\tTi.API.info('The App badge has been removed');\n\
+    \t}\n});\n\n// Add to the parent view.\n${1:parentView}.add(appBadgeToggleButton);\n"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: meta.project.com.appcelerator.titanium.mobile source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [httpclientbinary]
+  description: null
+  displayName: createHttpClientBinary
+  expansion: "\n// Create a Label to show our status.\nvar statusLabel = Ti.UI.createLabel({\n\
+    \ttext:'Downloading image ...', top:10, left:10, width:300, height:40, color:'#000'\n\
+    });\nvar imageView = Ti.UI.createImageView({\n\ttop:50, left:10, height:89, width:125,\
+    \ borderWidth:3, borderColor:'#ee0'\n});\n\n// Handle a failure.\nfunction fail(status)\
+    \ {\n\timageView.borderColor = '#f00';\n\tstatusLabel.text = 'Download failed!\
+    \ status=' + status;\n}\n\n// Create an HTTPClient.\nvar ${1:anXhr} = Ti.Network.createHTTPClient();\n\
+    ${1:anXhr}.setTimeout(10000);\n\n// Define the HTTPClient callbacks.\n${1:anXhr}.onload\
+    \ = function() {\n\tif (this.status === 200) {\n\t\tvar f = Ti.Filesystem.getFile(Ti.Filesystem.applicationDataDirectory,\
+    \ 'ti.png');\n\t\tf.write(this.responseData);\n\t\timageView.image = f.nativePath;\n\
+    \t\timageView.borderColor = '#0f0';\n\t\tstatusLabel.text = 'Image downloaded!';\n\
+    \t} else {\n\t\tfail(this.status);\n\t}\n};\n${1:anXhr}.onerror = function() {\n\
+    \tfail(this.status);\n}\n\n${2:parentView}.add(statusLabel);\n${2:parentView}.add(imageView);\n\
+    \n// Send the request for binary data.\n${1:anXhr}.open('GET', 'https://www.appcelerator.com/wp-content/uploads/2009/06/titanium_desk.png');\n\
+    ${1:anXhr}.send();\n"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: meta.project.com.appcelerator.titanium.mobile source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [httpclientxml]
+  description: null
+  displayName: createHttpClientXml
+  expansion: "\n// Create an HTTPClient.\nvar ${1:anXhr} = Ti.Network.createHTTPClient();\n\
+    ${1:anXhr}.setTimeout(10000);\n\n// Define the callback.\n${1:anXhr}.onload =\
+    \ function() {\n\t// Handle the XML data.\n\tvar doc = this.responseXML.documentElement;\n\
+    \tvar elements = doc.getElementsByTagName('screen_name');\n\tvar screenName =\
+    \ elements.item(0);\n\n\tvar label = Ti.UI.createLabel({textAlign:'center', height:'auto',\
+    \ width:'auto', top:20, text:screenName.text});\n\t${2:parentView}.add(label);\n\
+    \  \n\tvar textArea = Ti.UI.createTextArea({borderRadius:5, borderWidth:2, borderColor:'#999',\
+    \ backgroundColor:'#111', color:'yellow', bottom:10, left:10, right:10, height:300,\
+    \ font:{fontSize:10}});\n\ttextArea.value = this.responseText;\n\t${2:parentView}.add(textArea);\n\
+    };\n${1:anXhr}.onerror = function() {\n\talert('The HTTP request failed');\n}\n\
+    \n// Send the request data.\n${1:anXhr}.open('GET','http://twitter.com/statuses/show/123.xml');\n\
+    ${1:anXhr}.send();\n"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: meta.project.com.appcelerator.titanium.mobile source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [webview]
+  description: null
+  displayName: createWebView
+  expansion: "\n// Create a WebView\nvar ${1:aWebView} = Ti.UI.createWebView({\n\t\
+    url : 'http://developer.appcelerator.com'\n});\n${1:aWebView}.addEventListener('load',\
+    \ function(e) {\n\tTi.API.info('webview loaded: '+ e.url);\n});\n\n// Add to the\
+    \ parent view.\n${2:parentView}.add(${1:aWebView});\n"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: meta.project.com.appcelerator.titanium.mobile source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [tabbedbar]
+  description: null
+  displayName: createTabbedBar
+  expansion: "\n// Create a TabbedBar.\nvar ${1:aTabbedBar} = Ti.UI.createTabbedBar({\n\
+    \tlabels : ['One', 'Two', 'Three', 'Four', 'Five'],\n\tbackgroundColor : '#555',\n\
+    \tindex : 2\n});\nvar flexSpace = Ti.UI.createButton({\n\tsystemButton : Ti.UI.iPhone.SystemButton.FLEXIBLE_SPACE\n\
+    });\n${2:parentView}.setToolbar([flexSpace, ${1:aTabbedBar}, flexSpace]);\n\n\
+    // Listen for click events.\n${1:aTabbedBar}.addEventListener('click', function(e)\
+    \ {\n\talert('You clicked index = ' + e.index);\n});\n"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: meta.project.com.appcelerator.titanium.mobile source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [textfield]
+  description: null
+  displayName: createTextField
+  expansion: "\n// Create a TextField.\nvar ${1:aTextField} = Ti.UI.createTextField({\n\
+    \theight : 35,\n\ttop : 10,\n\tleft : 40,\n\twidth : 240,\n\thintText : 'This\
+    \ is hint text',\n\tsoftKeyboardOnFocus : Ti.UI.Android.SOFT_KEYBOARD_DEFAULT_ON_FOCUS,\
+    \ // Android only\n\tkeyboardType : Ti.UI.KEYBOARD_DEFAULT,\n\treturnKeyType :\
+    \ Ti.UI.RETURNKEY_DEFAULT,\n\tborderStyle : Ti.UI.INPUT_BORDERSTYLE_ROUNDED\n\
+    });\n\n// Listen for return events.\n${1:aTextField}.addEventListener('return',\
+    \ function(e) {\n\t${1:aTextField}.blur();\n\talert('Input was: ' + ${1:aTextField}.value);\n\
+    });\n\n// Add to the parent view.\n${2:parentView}.add(${1:aTextField});\n"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: meta.project.com.appcelerator.titanium.mobile source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [vibrate]
+  description: null
+  displayName: vibrate
+  expansion: '
+
+    // Play a device vibration.
+
+    Ti.Media.vibrate();
+
+    '
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: meta.project.com.appcelerator.titanium.mobile source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [tableview]
+  description: null
+  displayName: createTableView
+  expansion: "\n// Create a TableView.\nvar ${1:aTableView} = Ti.UI.createTableView();\n\
+    \n// Populate the TableView data.\nvar data = [\n\t{title:'Row 1', hasChild:true,\
+    \ color:'red', header:'First'},\n\t{title:'Row 2', hasDetail:true, color:'green'},\n\
+    \t{title:'Row 3', hasCheck:true, color:'blue', header:'Second'},\n\t{title:'Row\
+    \ 4', color:'orange'}\n];\n${1:aTableView}.setData(data);\n\n// Listen for click\
+    \ events.\n${1:aTableView}.addEventListener('click', function(e) {\n\talert('title:\
+    \ \\'' + e.row.title + '\\', section: \\'' + e.section.headerTitle + '\\', index:\
+    \ ' + e.index);\n});\n\n// Add to the parent view.\n${2:parentView}.add(${1:aTableView});\n"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: meta.project.com.appcelerator.titanium.mobile source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [base64]
+  description: null
+  displayName: base64
+  expansion: "\nvar original = 'Appcelerator';\nvar encoded = Ti.Utils.base64encode(original);\n\
+    var decoded = Ti.Utils.base64decode(encoded);\nTi.UI.createAlertDialog({\n\ttitle\
+    \ : 'Base64 Encoding',\n\tmessage : 'original: ' + original + '\\nencoded: ' +\
+    \ encoded + '\\ndecoded: ' + decoded\n}).show();\n"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: meta.project.com.appcelerator.titanium.mobile source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [md5]
+  description: null
+  displayName: md5
+  expansion: "\nvar original = 'Appcelerator';\nvar md5 = Ti.Utils.md5HexDigest(original);\n\
+    var expected = 'b51747a51f685cfb684cf3e20918edeb';\nTi.UI.createAlertDialog({\n\
+    \ttitle : 'md5',\n\tmessage : 'original: ' + original + '\\nmd5: ' + md5 + '\\\
+    nexpected: ' + expected\n}).show();\n"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: meta.project.com.appcelerator.titanium.mobile source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [sound]
+  description: null
+  displayName: createSound
+  expansion: '
+
+    Ti.Media.audioSessionMode = Ti.Media.AUDIO_SESSION_MODE_AMBIENT;
+
+    var sound = Ti.Media.createSound({url : ''../cricket.wav''});
+
+    sound.play();
+
+    '
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: meta.project.com.appcelerator.titanium.mobile source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [camera]
+  description: null
+  displayName: createCamera
+  expansion: "\nTi.Media.showCamera({\n\tsuccess : function(event) {\n\t\talert('Your\
+    \ photo was saved to the Photo Gallery');\n\t},\n\tcancel : function() {\n\t},\n\
+    \terror : function(error) {\n\t\tvar message;\n\t\tif (error.code == Ti.Media.NO_CAMERA)\
+    \ {\n\t\t\tmessage = 'Device does not have video recording capabilities';\n\t\t\
+    } else {\n\t\t\tmessage = 'Unexpected error: ' + error.code;\n\t\t}\n\n\t\tTi.UI.createAlertDialog({\n\
+    \t\t\ttitle : 'Camera',\n\t\t\tmessage : message\n\t\t}).show();\n\t},\n\tsaveToPhotoGallery\
+    \ : true,\n\tallowEditing : true,\n\tmediaTypes : [Ti.Media.MEDIA_TYPE_VIDEO,Ti.Media.MEDIA_TYPE_PHOTO]\n\
+    });\n"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: meta.project.com.appcelerator.titanium.mobile source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [contact]
+  description: null
+  displayName: createContact
+  expansion: "\nvar ${1:aContact} = Ti.Contacts.createPerson({\n\tfirstName : 'John',\n\
+    \tlastName : 'Smith',\n\tkind : Ti.Contacts.CONTACTS_KIND_PERSON,\n\tURL : {\n\
+    \t\t'homepage' : ['http://example.com'],\n\t\t'url' : ['http://example.com']\n\
+    \t},\n\tphone : {\n\t\t'work' : ['18885551212'],\n\t\t'home' : ['18885551212'],\n\
+    \t\t'mobile' : ['18885551212'],\n\t\t'other' : ['18885551212']\n\t},\n\temail\
+    \ : {\n\t\t'work' : ['jsmith@example.com'],\n\t\t'home' : ['jsmith@example.com']\n\
+    \t},\n\taddress : {\n\t\t'work' : [{\n\t\t\t'Street' : '123 Main',\n\t\t\t'City'\
+    \ : 'Boston',\n\t\t\t'State' : 'MA',\n\t\t\t'ZIP' : '02134',\n\t\t\t'Country'\
+    \ : 'United States'\n\t\t}],\n\t\t'home' : [{\n\t\t\t'Street' : '456 North',\n\
+    \t\t\t'City' : 'Boston',\n\t\t\t'State' : 'MA',\n\t\t\t'ZIP' : '02134',\n\t\t\t\
+    'Country' : 'United States'\n\t\t}]\n\t}\n});\n"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: meta.project.com.appcelerator.titanium.mobile source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [progressbar]
+  description: null
+  displayName: createProgressBar
+  expansion: "\n// Create a ProgressBar.\nvar ${1:aProgressBar} = Ti.UI.createProgressBar({\n\
+    \tmin : 0,\n\tmax : 10,\n\tvalue : 0,\n\twidth : 200,\n\theight : 70,\n\tcolor\
+    \ : '#444',\n\tmessage : 'Measuring Progress',\n\tfont : {fontSize:14, fontWeight:'bold'},\n\
+    \tstyle : Ti.UI.iPhone.ProgressBarStyle.PLAIN,\n\ttop : 60\n});\n\n// Add to the\
+    \ parent view.\n${2:parentView}.add(${1:aProgressBar});\n${1:aProgressBar}.show();\n\
+    \n// Sample timer to demonstrate ProgressBar functionality.\nvar val = 0;\nvar\
+    \ interval = setInterval(function() {\n\tif (val <= 10) {\n\t\t${1:aProgressBar}.value\
+    \ = val;\n\t\t${1:aProgressBar}.message = 'Progress: ' + val + ' of 10';\n\t\t\
+    val++;\n\t} else {\n\t\t${1:aProgressBar}.message = 'Progress complete!';\n\t\t\
+    clearInterval(interval);\n\t}\n}, 500);\n"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: meta.project.com.appcelerator.titanium.mobile source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [slider]
+  description: null
+  displayName: createSlider
+  expansion: "\n// Create a Slider.\nvar ${1:aSlider} = Titanium.UI.createSlider({\n\
+    \tmin : 0,\n\tmax : 100,\n\tvalue : 25,\n\twidth : 200,\n\theight : 'auto',\n\t\
+    top : 30\n});\n\n// Listen for change events.\n${1:aSlider}.addEventListener('change',\
+    \ function(e) {\n\tTi.API.info('Slider value: ' + Math.round(e.value) + ' (actual:\
+    \ ' + Math.round(${1:aSlider}.value) + ')');\n});\n\n// Add to the parent view.\n\
+    ${2:parentView}.add(${1:aSlider});\n${1:aSlider}.show();\n"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: meta.project.com.appcelerator.titanium.mobile source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [properties]
+  description: null
+  displayName: properties
+  expansion: '
+
+    // Add some Properties.
+
+    Ti.App.Properties.setString(''String'', ''Appcelerator'');
+
+    Ti.App.Properties.setInt(''Int'', 10);
+
+    Ti.App.Properties.setBool(''Bool'', true);
+
+    Ti.App.Properties.setDouble(''Double'', 10.6);
+
+    Ti.App.Properties.setList(''List'', [{name:''One'', address:''1 Main St''}, {name:''Two'',
+    address:''2 Main St''}]);
+
+
+    // Retrieve the Properties.
+
+    Ti.API.info(''String: '' + Ti.App.Properties.getString(''String''));
+
+    Ti.API.info(''Int: '' + Ti.App.Properties.getInt(''Int''));
+
+    Ti.API.info(''Bool: '' + Ti.App.Properties.getBool(''Bool''));
+
+    Ti.API.info(''Double: '' + Ti.App.Properties.getDouble(''Double''));
+
+    Ti.API.info(''List: '' + JSON.stringify(Ti.App.Properties.getList(''List'')));
+
+
+    // Remove the Properties.
+
+    Ti.App.Properties.removeProperty(''String'');
+
+    Ti.App.Properties.removeProperty(''Int'');
+
+    Ti.App.Properties.removeProperty(''Bool'');
+
+    Ti.App.Properties.removeProperty(''Double'');
+
+    Ti.App.Properties.removeProperty(''List'');
+
+    '
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: meta.project.com.appcelerator.titanium.mobile source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [animation]
+  description: null
+  displayName: createAnimation
+  expansion: "\n// Create an object to animate.\nvar animatedView = Ti.UI.createView({top:20,\
+    \ left:20, height:40, width:200, backgroundColor:'#36a'});\n${1:parentView}.add(animatedView);\n\
+    \n// Create some Animations.\nvar firstMove = Ti.UI.createAnimation({duration:700,\
+    \ top:120, left:250, height:200, width:20, backgroundColor:'#a36'});\nvar secondMove\
+    \ = Ti.UI.createAnimation({duration:1000, top:20, left:20, height:40, width:200,\
+    \ backgroundColor:'#36a'});\n\n// Start the Animation.\nanimatedView.animate(firstMove);\n\
+    \n// Listen for start and complete events.\nfirstMove.addEventListener('start',\
+    \ function() {\n\tTi.API.info('Animation 1 started');\n});\nfirstMove.addEventListener('complete',\
+    \ function() {\n\tTi.API.info('Animation 1 completed');\n\tanimatedView.animate(secondMove);\n\
+    });\nsecondMove.addEventListener('start', function() {\n\tTi.API.info('Animation\
+    \ 2 started');\n});\nsecondMove.addEventListener('complete', function() {\n\t\
+    Ti.API.info('Animation 2 completed');\n});\n"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: meta.project.com.appcelerator.titanium.mobile source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [clipboard]
+  description: null
+  displayName: clipboard
+  expansion: "\n// Save some text to the Clipboard.\nTi.UI.Clipboard.setText('Appcelerator\
+    \ Titanium');\n\n// Fetch the contents of the Clipboard.\nif (Ti.UI.Clipboard.hasText())\
+    \ {\n\talert('Clipboard: ' + Ti.UI.Clipboard.getText());\n} else {\n\talert('No\
+    \ text on Clipboard.');\n}\n\n// Clear the Clipboard.\nTi.UI.Clipboard.clearText();\n"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: meta.project.com.appcelerator.titanium.mobile source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [tabbadge]
+  description: null
+  displayName: tabBadge
+  expansion: "\n// Create a Button to toggle the Tab Badge.\nvar tabBadgeToggleButton\
+    \ = Ti.UI.createButton({\n\ttitle : 'Toggle Tab Badge',\n\twidth : 200,\n\theight\
+    \ : 40,\n\ttop : 10\n});\nvar badgeVal = 0;\n\n// Listen for click events.\ntabBadgeToggleButton.addEventListener('click',\
+    \ function() {\n\tif (!${1:aTab}.badge) {\n\t\t${1:aTab}.badge = ++badgeVal;\n\
+    \t\tTi.API.info('The Tab badge has the value: ' + badgeVal);\n\t} else {\n\t\t\
+    ${1:aTab}.badge = null;\n\t\tTi.API.info('The Tab badge has been removed');\n\t\
+    }\n});\n\n// Add to the parent view.\n${2:parentView}.add(tabBadgeToggleButton);\n"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: meta.project.com.appcelerator.titanium.mobile source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [audioplayer]
+  description: null
+  displayName: createAudioPlayer
+  expansion: "\n// Create an AudioPlayer.\nvar ${1:anAudioPlayer} = Ti.Media.createAudioPlayer({\n\
+    \turl : 'http://example.com/somefile.mp3'\n});\n${1:anAudioPlayer}.start();\n\n\
+    // Listen for application pause and resume events.\nTi.App.addEventListener('pause',\
+    \ function(e) {\n\t${1:anAudioPlayer}.setPaused(true);\n});\nTi.App.addEventListener('resume',\
+    \ function(e) {\n\t${1:anAudioPlayer}.setPaused(false);\n});\n"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: meta.project.com.appcelerator.titanium.mobile source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.ProjectSampleElement
+  category: com.appcelerator.titanium.mobile.samples.category
+  customProperties: null
+  description: A sample Master/Detail app that uses native maps to plot locations. With it you can forward geocode addresses and add them as annotations to the map.
+  displayName: Geocoder
+  icon: {default: 'http://preview.appcelerator.com/dashboard/img/icons/icon_geo.png'}
+  id: com.appcelerator.titanium.mobile.samples.mapping
+  location: git://github.com/appcelerator-developer-relations/Sample.Mapping.git
+  natures: [com.appcelerator.titanium.mobile.nature, com.aptana.projects.webnature]
+  path: samples/project_samples.rb
+  scope: null
+- !!com.aptana.scripting.model.ProjectSampleElement
+  category: com.appcelerator.titanium.mobile.samples.category
+  customProperties: null
+  description: A sample Master/Detail app that creates a RSS reader. With it you can pull live RSS feeds from the internet, list them along with thumbnails, then drill down to the article itself.
+  displayName: RSS Reader
+  icon: {default: 'http://preview.appcelerator.com/dashboard/img/icons/icon_rss.png'}
+  id: com.appcelerator.titanium.mobile.samples.rss
+  location: git://github.com/appcelerator-developer-relations/Sample.RSS.git
+  natures: [com.appcelerator.titanium.mobile.nature, com.aptana.projects.webnature]
+  path: samples/project_samples.rb
+  scope: null
+- !!com.aptana.scripting.model.ProjectSampleElement
+  category: com.appcelerator.titanium.mobile.samples.category
+  customProperties: null
+  description: A sample tabbed application that creates a basic todo list. With this app you can maintain a listing of tasks to be completed, add to that list, and mark tasks as done.
+  displayName: Todo List
+  icon: {default: 'http://preview.appcelerator.com/dashboard/img/icons/icon_to_do_list.png'}
+  id: com.appcelerator.titanium.mobile.samples.todo
+  location: git://github.com/appcelerator-developer-relations/Sample.Todo.git
+  natures: [com.appcelerator.titanium.mobile.nature, com.aptana.projects.webnature]
+  path: samples/project_samples.rb
+  scope: null
+- !!com.aptana.scripting.model.ProjectSampleElement
+  category: com.appcelerator.titanium.mobile.samples.category
+  customProperties: null
+  description: A sample mobile project that demonstrates a variety of APIs available in Titanium
+  displayName: Kitchen Sink
+  icon: {default: 'http://preview.appcelerator.com/dashboard/img/icons/icon_kitchen_sink.png'}
+  id: com.appcelerator.titanium.mobile.samples.kitchensink
+  location: git://github.com/appcelerator/KitchenSink.git
+  natures: [com.appcelerator.titanium.mobile.nature, com.aptana.projects.webnature]
+  path: samples/project_samples.rb
+  scope: null
+- !!com.aptana.scripting.model.ProjectSampleElement
+  category: com.appcelerator.titanium.mobile.samples.category
+  customProperties: null
+  description: A sample mobile project that demonstrates a variety of APIs available in Titanium (For Nook)
+  displayName: Kitchen Sink Nook
+  icon: {default: 'http://preview.appcelerator.com/dashboard/img/icons/icon_kitchen_sink.png'}
+  id: com.appcelerator.titanium.mobile.samples.kitchensink.nook
+  location: git://github.com/appcelerator/KitchenSinkNook.git
+  natures: [com.appcelerator.titanium.mobile.nature, com.aptana.projects.webnature]
+  path: samples/project_samples.rb
+  scope: null
+copyright: Copyright 2011 Thomas Aylott/Appcelerator. Distributed under the MIT license.
+customProperties: null
+decreaseIndentMarkers: &id002 {}
+description: Support for Appcelerator Titanium Mobile
+displayName: Titanium Mobile
+fileTypeRegistry: *id002
+fileTypes: *id001
+foldingStartMarkers: *id002
+foldingStopMarkers: *id002
+increaseIndentMarkers: *id002
+license: null
+licenseUrl: null
+path: bundle.rb
+repository: git://github.com/appcelerator/titanium_mobile.ruble.git
+visible: true

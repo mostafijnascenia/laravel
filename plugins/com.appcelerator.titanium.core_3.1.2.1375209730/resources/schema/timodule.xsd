@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified" targetNamespace="http://ti.appcelerator.org"
+	xmlns:ti="http://ti.appcelerator.org">
+	<xs:element name="module">
+		<xs:complexType>
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element name="iphone" form="unqualified" maxOccurs="1"
+					minOccurs="0">
+				</xs:element>
+				<xs:element name="ipad" form="unqualified" maxOccurs="1"
+					minOccurs="0">
+				</xs:element>
+				<xs:element name="android" form="unqualified" maxOccurs="1"
+					minOccurs="0">
+				</xs:element>
+				<xs:element name="mobileweb" form="unqualified"
+					maxOccurs="1" minOccurs="0">
+				</xs:element>
+				<xs:element name="blackberry" form="unqualified"
+					maxOccurs="1" minOccurs="0">
+				</xs:element>
+				<xs:element name="tizen" form="unqualified"
+					maxOccurs="1" minOccurs="0">
+				</xs:element>
+				<xs:element name="ivi" form="unqualified"
+					maxOccurs="1" minOccurs="0">
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

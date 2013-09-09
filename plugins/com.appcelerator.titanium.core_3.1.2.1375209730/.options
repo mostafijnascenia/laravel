@@ -1,0 +1,3 @@
+com.appcelerator.titanium.core/debug = true
+com.appcelerator.titanium.core/debug/api = true
+com.appcelerator.titanium.core/debug/tiapp = true

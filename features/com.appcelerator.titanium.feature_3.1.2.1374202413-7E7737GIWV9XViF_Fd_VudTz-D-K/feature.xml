@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.appcelerator.titanium.feature"
+      label="%featureName"
+      version="3.1.2.1374202413-7E7737GIWV9XViF_Fd_VudTz-D-K"
+      provider-name="%providerName"
+      plugin="com.appcelerator.titanium.branding">
+
+   <description url="http://www.appcelerator.com">
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://download.appcelerator.com/appcelerator/studio/standalone/update/stable/"/>
+   </url>
+
+   <includes
+         id="com.appcelerator.titanium.studio"
+         version="3.1.2.1376088005-7N7757lG1dpXdjin"/>
+
+   <includes
+         id="com.aptana.feature"
+         version="3.4.2.1376005939-B87T88BWOnwWRYdZO1DC44EXtPxS"/>
+
+   <includes
+         id="com.appcelerator.titanium.alloy.feature"
+         version="3.1.0.201308091558-773-7F7BJ7c7gBRRc"/>
+
+   <includes
+         id="com.appcelerator.titanium.acs.feature"
+         version="3.1.0.201308091557-37H7q7Nd2v9pkv3w"/>
+
+   <plugin
+         id="com.appcelerator.titanium.ui.ide"
+         download-size="0"
+         install-size="0"
+         version="1.1.0.1374009913"
+         unpack="false"/>
+
+</feature>

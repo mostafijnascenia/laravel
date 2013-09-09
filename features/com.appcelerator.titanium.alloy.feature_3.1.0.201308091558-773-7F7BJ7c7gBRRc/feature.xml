@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.appcelerator.titanium.alloy.feature"
+      label="%featureName"
+      version="3.1.0.201308091558-773-7F7BJ7c7gBRRc"
+      provider-name="%providerName">
+
+   <description url="http://www.appcelerator.com">
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="com.aptana.core"/>
+      <import plugin="com.appcelerator.titanium.core"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="com.aptana.index.core"/>
+      <import plugin="com.aptana.parsing"/>
+      <import plugin="com.aptana.xml.core"/>
+      <import plugin="com.aptana.js.core"/>
+      <import plugin="com.appcelerator.titanium.nodejs.core"/>
+      <import plugin="org.eclipse.ui.navigator"/>
+      <import plugin="com.aptana.ui"/>
+      <import plugin="com.aptana.projects"/>
+      <import plugin="com.appcelerator.titanium.update"/>
+      <import plugin="com.aptana.jetty.util.epl"/>
+      <import plugin="com.aptana.ui.epl"/>
+      <import plugin="org.eclipse.ui.editors"/>
+      <import plugin="com.aptana.editor.xml"/>
+      <import plugin="com.aptana.editor.js"/>
+      <import plugin="org.eclipse.compare"/>
+      <import plugin="com.aptana.editor.common"/>
+   </requires>
+
+   <plugin
+         id="com.appcelerator.titanium.alloy.core"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.201308091558"
+         unpack="false"/>
+
+   <plugin
+         id="com.appcelerator.titanium.alloy.ui"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.201308091558"
+         unpack="false"/>
+
+   <plugin
+         id="com.appcelerator.titanium.editor.tss"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.201308091558"
+         unpack="false"/>
+
+   <plugin
+         id="com.appcelerator.titanium.tss.core"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.201308091558"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Export-Package: com.aptana.terminal,com.aptana.terminal.editor,com.apt
+ ana.terminal.hyperlink,com.aptana.terminal.views,com.aptana.terminal.
+ widget
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %Bundle-Name
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.core.expressions,
+ org.eclipse.core.filesystem,com.aptana.core,org.eclipse.debug.core,or
+ g.eclipse.jface.text,org.eclipse.ui,org.eclipse.ui.ide,com.aptana.org
+ .eclipse.tm.terminal,com.aptana.theme,com.aptana.scripting,com.aptana
+ .ui
+Bundle-Vendor: %Bundle-Vendor
+Eclipse-LazyStart: true
+Bundle-Version: 3.0.0.1350942659
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.aptana.terminal.TerminalPlugin
+Bundle-SymbolicName: com.aptana.terminal;singleton:=true
+Eclipse-ExtensibleAPI: true
+
+

@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Export-Package: com.strangeberry.jmdns.tools,javax.jmdns,javax.jmdns.i
+ mpl,javax.jmdns.impl.constants,javax.jmdns.impl.tasks,javax.jmdns.imp
+ l.tasks.resolver,javax.jmdns.impl.tasks.state
+Bundle-ClassPath: jmdns.jar
+Bundle-Version: 1.0.0.1345154870
+Bundle-Name: JmDNS
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: jmdns
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+
+

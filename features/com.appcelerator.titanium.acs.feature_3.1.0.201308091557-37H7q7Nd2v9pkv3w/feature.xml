@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.appcelerator.titanium.acs.feature"
+      label="%featureName"
+      version="3.1.0.201308091557-37H7q7Nd2v9pkv3w"
+      provider-name="%providerName">
+
+   <description url="http://www.appcelerator.com">
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="com.aptana.core"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="com.aptana.ui"/>
+      <import plugin="org.eclipse.equinox.security"/>
+      <import plugin="com.aptana.buildpath.core"/>
+      <import plugin="com.aptana.jetty.util.epl"/>
+      <import plugin="com.aptana.deploy"/>
+      <import plugin="org.apache.commons.compress"/>
+      <import plugin="com.aptana.webserver.core"/>
+      <import plugin="org.eclipse.core.expressions"/>
+      <import plugin="org.eclipse.ui.console"/>
+      <import plugin="com.aptana.projects"/>
+      <import plugin="com.aptana.webserver.ui"/>
+      <import plugin="com.aptana.theme"/>
+   </requires>
+
+   <plugin
+         id="com.appcelerator.titanium.acs.core"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.1375824399"
+         unpack="false"/>
+
+   <plugin
+         id="com.appcelerator.titanium.acs.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.1374545664"
+         unpack="false"/>
+
+   <plugin
+         id="org.chromium.debug.core"
+         download-size="0"
+         install-size="0"
+         version="0.3.9.1371603991"
+         unpack="false"/>
+
+   <plugin
+         id="org.chromium.debug.ui"
+         download-size="0"
+         install-size="0"
+         version="0.3.9.1372894118"
+         unpack="false"/>
+
+   <plugin
+         id="org.chromium.sdk"
+         download-size="0"
+         install-size="0"
+         version="0.3.9.1369874474"
+         unpack="false"/>
+
+   <plugin
+         id="org.chromium.sdk.wip.eclipse"
+         download-size="0"
+         install-size="0"
+         version="0.3.9.1367612974"
+         unpack="false"/>
+
+   <plugin
+         id="org.chromium.sdk.wipbackend.dev"
+         download-size="0"
+         install-size="0"
+         version="0.3.9.1367975577"
+         unpack="false"/>
+
+   <plugin
+         id="org.chromium.sdk.wipbackend.protocol_1_0"
+         download-size="0"
+         install-size="0"
+         version="0.3.9.1367975577"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,7 @@
+Uninstalling/Re-installing Titanium Studio
+======================================================================================
+
+If you need to fully uninstall and reinstall Titanium Studio, 
+you can follow the "Uninstalling Studio" steps here: 
+http://www.aptana.com/r/apupdate and then re-download and 
+install again as before.

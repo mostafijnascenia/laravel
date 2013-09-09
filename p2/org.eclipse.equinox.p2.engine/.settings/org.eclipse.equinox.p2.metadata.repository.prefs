@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+repositories/http\:__download.appcelerator.com_appcelerator_studio_standalone_update_stable/count=4
+repositories/http\:__download.appcelerator.com_appcelerator_studio_standalone_update_stable/enabled=false
+repositories/http\:__download.appcelerator.com_appcelerator_studio_standalone_update_stable/isSystem=false
+repositories/http\:__download.appcelerator.com_appcelerator_studio_standalone_update_stable/nickname=Titanium Studio Stable Updates
+repositories/http\:__download.appcelerator.com_appcelerator_studio_standalone_update_stable/uri=http\://download.appcelerator.com/appcelerator/studio/standalone/update/stable/
+repositories/http\:__download.eclipse.org_eclipse_updates_3.5/enabled=false
+repositories/http\:__download.eclipse.org_eclipse_updates_3.5/isSystem=false
+repositories/http\:__download.eclipse.org_eclipse_updates_3.5/uri=http\://download.eclipse.org/eclipse/updates/3.5
+repositories/http\:__download.eclipse.org_releases_indigo/count=3
+repositories/http\:__download.eclipse.org_releases_indigo/enabled=false
+repositories/http\:__download.eclipse.org_releases_indigo/isSystem=false
+repositories/http\:__download.eclipse.org_releases_indigo/nickname=Eclipse Indigo Update Site
+repositories/http\:__download.eclipse.org_releases_indigo/uri=http\://download.eclipse.org/releases/indigo

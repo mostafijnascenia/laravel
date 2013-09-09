@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension-point id="pythonInterpreters" name="%python-interpreters.extension-point.name" schema="schema/pythonInterpreters.exsd"/>
+   <extension-point id="platformConfigurator" name="%extension-point.platform.configurator.name" schema="schema/platformConfigurator.exsd"/>
+   <extension-point id="titaniumSDKCommandHandlers" name="%titanium.command.handler.extension-point.name" schema="schema/titaniumSDKCommandHandlers.exsd"/>
+   <extension-point id="mobilePlatforms" name="%extension-point.mobile.platforms.name" schema="schema/mobilePlatforms.exsd"/>
+   <extension-point id="launchConfigurationValidators" name="%launchConfigurationValidators.extension-point.name" schema="schema/launchConfigurationValidators.exsd"/>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="com.appcelerator.titanium.core.preferences.TitaniumCorePreferenceInitializer">
+      </initializer>
+   </extension>
+   <extension
+         point="com.appcelerator.titanium.core.pythonInterpreters">
+      <interpreter
+            class="com.appcelerator.titanium.core.python.BasicPythonScriptInterpreter"
+            id="com.appcelerator.titanium.core.interpreter.python.basic"
+            name="Basic Python Interpreter">
+      </interpreter>
+   </extension>
+   <extension
+         point="org.eclipse.debug.core.sourcePathComputers">
+      <sourcePathComputer
+            class="com.aptana.debug.core.sourcelookup.SourcePathComputerDelegate"
+            id="com.appcelerator.titanium.core.sourcePathComputer">
+      </sourcePathComputer>
+   </extension>
+   <extension
+         point="org.eclipse.core.expressions.propertyTesters">
+      <propertyTester
+            class="com.appcelerator.titanium.core.user.TitaniumUserPropertyTester"
+            id="com.appcelerator.titanium.core.userPropertyTester"
+            namespace="com.appcelerator.titanium.core.user"
+            properties="isSignedIn, isActivated, isCommunity"
+            type="java.lang.Object">
+      </propertyTester>
+      <propertyTester
+            class="com.appcelerator.titanium.core.TitaniumProjectPropertyTester"
+            id="com.appcelerator.titanium.core.projectPropertyTester"
+            namespace="com.appcelerator.titanium.core.project"
+            properties="isIPhoneDeployTarget, isIPadDeployTarget, isAndroidDeployTarget, isUniversalDeployTarget, isBlackBerryDeployTarget, matchMinimumSDKVersion"
+            type="org.eclipse.core.resources.IResource">
+      </propertyTester>
+   </extension>
+   <extension
+         id="com.appcelerator.titanium.core.builder"
+         name="%builder.name"
+         point="org.eclipse.core.resources.builders">
+      <builder>
+         <run
+               class="com.appcelerator.titanium.core.TitaniumProjectBuilder">
+         </run>
+      </builder>
+   </extension>
+   <extension
+         point="com.aptana.scripting.applicationBundlePaths">
+      <bundlePath
+            name="Titanium Studio Bundles"
+            path="bundles/">
+      </bundlePath>
+   </extension>
+   <extension
+         point="com.aptana.buildpath.core.buildParticipants">
+      <participant
+            class="com.appcelerator.titanium.core.tiapp.validator.TiAppValidator"
+            id="com.appcelerator.titanium.core.TiAppValidator"
+            name="%tiapp.validator.name"
+            priority="49">
+         <projectNatureBinding
+               natureId="com.appcelerator.titanium.mobile.nature">
+         </projectNatureBinding>
+         <contentTypeBinding
+               contentTypeId="org.eclipse.core.runtime.xml">
+         </contentTypeBinding>
+      </participant>
+   </extension>
+   <extension
+         id="ti_schema_problem"
+         name="%tiapp.validator.marker.name"
+         point="org.eclipse.core.resources.markers">
+      <super
+            type="com.aptana.core.problem">
+      </super>
+   </extension>
+   <extension
+         point="com.aptana.core.diagnostic">
+      <diagnosticLog
+            class="com.appcelerator.titanium.core.acs.ACSDiagnosticLog"
+            priority="50">
+      </diagnosticLog>
+   </extension>
+
+</plugin>

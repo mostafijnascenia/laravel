@@ -1,0 +1,25 @@
+en:
+  bundle_name: 'Titanium Mobile'
+  bundle_description: 'Support for Appcelerator Titanium Mobile'
+  developer_center: 'Mobile Developer Center'
+  single_window_application: "Single Window Application"
+  single_window_application_desc: "A single window application with a single view - a mostly blank canvas. Recommended for Titanium SDK 2.0 or higher."
+  master_detail_application: "Master/Detail Application"
+  master_detail_application_desc: "A master detail view, utilizing a native table view component and platform-specific UI and navigation. A starting point for a navigation-based application with hierarchical data, or a stack of windows. Recommended for Titanium SDK 2.0 or higher."
+  tabbed_application: "Tabbed Application"
+  tabbed_application_desc: "A tabbed application, consisting of multiple stacks of windows associated with tabs in a tab group.  A starting point for tab-based application with multiple top-level windows. Recommended for Titanium SDK 2.0 or higher."
+  html_application: "HTML-based Application"
+  html_application_desc: "An application using just a HTML view. Recommended for Titanium SDK 2.0 or higher."
+  geocoder: "Geocoder"
+  geocoder_description: "A sample Master/Detail app that uses native maps to plot locations. With it you can forward geocode addresses and add them as annotations to the map."
+  rss_reader: "RSS Reader"
+  rss_reader_description: "A sample Master/Detail app that creates a RSS reader. With it you can pull live RSS feeds from the internet, list them along with thumbnails, then drill down to the article itself."
+  todo_list: "Todo List"
+  todo_list_description: "A sample tabbed application that creates a basic todo list. With this app you can maintain a listing of tasks to be completed, add to that list, and mark tasks as done."
+  kitchen_sink: "Kitchen Sink"
+  kitchen_sink_description: "A sample mobile project that demonstrates a variety of APIs available in Titanium"
+  kitchen_sink_ipad: "Kitchen Sink iPad"
+  kitchen_sink_ipad_description: "A sample mobile project that demonstrates a variety of APIs available in Titanium (For iPad)"
+  kitchen_sink_nook: "Kitchen Sink Nook"
+  kitchen_sink_nook_description: "A sample mobile project that demonstrates a variety of APIs available in Titanium (For Nook)"
+  

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.appcelerator.titanium.studio"
+      label="%featureName"
+      version="3.1.2.1376088005-7N7757lG1dpXdjin"
+      provider-name="%providerName"
+      plugin="com.appcelerator.titanium.branding">
+
+   <description url="http://www.appcelerator.com">
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.core.expressions"/>
+      <import plugin="org.eclipse.core.filesystem"/>
+      <import plugin="org.eclipse.equinox.security"/>
+      <import plugin="org.eclipse.jface.text"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.debug.core"/>
+      <import plugin="com.aptana.core.io"/>
+      <import plugin="com.aptana.terminal"/>
+      <import plugin="com.aptana.libraries"/>
+      <import plugin="com.aptana.debug.core"/>
+      <import plugin="org.eclipse.debug.ui"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.mortbay.jetty.util"/>
+      <import plugin="com.aptana.ui"/>
+      <import plugin="com.aptana.projects"/>
+      <import plugin="org.eclipse.ui.browser"/>
+      <import plugin="org.eclipse.ui.editors"/>
+      <import plugin="com.aptana.js.debug.core"/>
+      <import plugin="com.aptana.js.debug.ui"/>
+      <import plugin="org.eclipse.ui.navigator"/>
+      <import plugin="com.aptana.samples"/>
+      <import plugin="org.eclipse.ui.forms"/>
+      <import plugin="com.aptana.editor.common"/>
+      <import plugin="com.aptana.portal.ui"/>
+      <import plugin="com.aptana.editor.xml"/>
+      <import plugin="com.aptana.scripting.ui"/>
+      <import plugin="com.aptana.ui.epl"/>
+      <import plugin="org.apache.ant"/>
+      <import plugin="com.aptana.core" version="3.0.3" match="greaterOrEqual"/>
+      <import plugin="com.aptana.filewatcher"/>
+      <import plugin="com.aptana.scripting"/>
+      <import plugin="com.aptana.editor.js"/>
+      <import plugin="com.aptana.git.ui"/>
+      <import plugin="com.aptana.usage"/>
+      <import plugin="com.aptana.editor.findbar"/>
+      <import plugin="com.aptana.jetty.util.epl"/>
+   </requires>
+
+   <plugin
+         id="com.appcelerator.titanium.core"
+         download-size="0"
+         install-size="0"
+         version="3.1.2.1375209730"/>
+
+   <plugin
+         id="com.appcelerator.titanium.mobile"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.1376088005"
+         unpack="false"/>
+
+   <plugin
+         id="com.appcelerator.titanium.ui"
+         download-size="0"
+         install-size="0"
+         version="1.1.0.1375828788"
+         unpack="false"/>
+
+   <plugin
+         id="com.appcelerator.titanium.python.win32"
+         os="win32"
+         ws="win32"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.1338515509"/>
+
+   <plugin
+         id="com.appcelerator.titanium.branding"
+         download-size="0"
+         install-size="0"
+         version="3.1.2.1368863929"/>
+
+   <plugin
+         id="com.appcelerator.titanium.usage"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.1364101697"
+         unpack="false"/>
+
+   <plugin
+         id="com.appcelerator.titanium.update"
+         download-size="0"
+         install-size="0"
+         version="2.1.1.1373584466"
+         unpack="false"/>
+
+   <plugin
+         id="com.appcelerator.titanium.publish"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.1368744540"
+         unpack="false"/>
+
+   <plugin
+         id="com.appcelerator.titanium.mobile.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.1375210274"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.compress"
+         download-size="0"
+         install-size="0"
+         version="1.4.1"
+         unpack="false"/>
+
+   <plugin
+         id="com.appcelerator.titanium.nodejs.core"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.1371765049"/>
+
+   <plugin
+         id="jmdns"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.1345154870"/>
+
+   <plugin
+         id="com.appcelerator.titanium.mobileweb.core"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.1364842767"
+         unpack="false"/>
+
+   <plugin
+         id="com.appcelerator.titanium.mobileweb.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.1368602025"
+         unpack="false"/>
+
+   <plugin
+         id="com.appcelerator.titanium.tizen.core"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.1370997963"
+         unpack="false"/>
+
+   <plugin
+         id="com.appcelerator.titanium.tizen.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.1370997963"
+         unpack="false"/>
+
+   <plugin
+         id="com.google.debugging.sourcemap"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.1363734189"
+         unpack="false"/>
+
+</feature>

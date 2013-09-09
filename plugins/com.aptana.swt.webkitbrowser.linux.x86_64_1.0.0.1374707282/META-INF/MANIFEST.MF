@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-Vendor: %Bundle-Vendor
+Fragment-Host: com.aptana.swt.webkitbrowser;bundle-version="[1.0.0,1.0
+ .99)"
+Bundle-Version: 1.0.0.1374707282
+Eclipse-PlatformFilter: (& (osgi.os=linux) (osgi.arch=x86_64))
+Bundle-Name: %Bundle-Name
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.aptana.swt.webkitbrowser.linux.x86_64;singlet
+ on:=true
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+
+

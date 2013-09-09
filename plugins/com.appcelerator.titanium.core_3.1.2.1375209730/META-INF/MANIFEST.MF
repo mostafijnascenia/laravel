@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Export-Package: com.appcelerator.titanium.core,com.appcelerator.titani
+ um.core.acs,com.appcelerator.titanium.core.cli,com.appcelerator.titan
+ ium.core.documentation,com.appcelerator.titanium.core.launching,com.a
+ ppcelerator.titanium.core.marketo,com.appcelerator.titanium.core.mobi
+ le,com.appcelerator.titanium.core.platform,com.appcelerator.titanium.
+ core.preferences,com.appcelerator.titanium.core.python,com.appcelerat
+ or.titanium.core.sourcemap,com.appcelerator.titanium.core.tiapp,com.a
+ ppcelerator.titanium.core.tiapp.validator,com.appcelerator.titanium.c
+ ore.user,com.appcelerator.titanium.core.util
+Require-Bundle: org.eclipse.jface.text;visibility:=reexport,org.apache
+ .ant,com.aptana.jetty.util.epl,json.simple;visibility:=reexport,com.a
+ ptana.core.epl;bundle-version="3.0.0",com.aptana.core;bundle-version=
+ "3.0.4",com.aptana.filewatcher,com.aptana.core.io,com.aptana.jira.cor
+ e,com.aptana.debug.core,com.aptana.buildpath.core,com.aptana.js.debug
+ .core,com.aptana.console,com.google.debugging.sourcemap,com.aptana.pr
+ ojects
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Version: 3.1.2.1375209730
+Bundle-Name: %pluginName
+Bundle-Activator: com.appcelerator.titanium.core.TitaniumCorePlugin
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.appcelerator.titanium.core;singleton:=true
+Eclipse-ExtensibleAPI: true
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+
+

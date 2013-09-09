@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Export-Package: com.appcelerator.titanium.nodejs.core,com.appcelerator
+ .titanium.nodejs.core.terminal
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Bundle-Name: %Bundle-Name
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Require-Bundle: com.aptana.core,com.aptana.core.io,com.aptana.js.core;
+ visibility:=reexport,com.appcelerator.titanium.core;visibility:=reexp
+ ort
+Bundle-Vendor: %Bundle-Vendor
+Bundle-Version: 1.0.0.1371765049
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.appcelerator.titanium.nodejs.core.NodeJSCorePlug
+ in
+Bundle-SymbolicName: com.appcelerator.titanium.nodejs.core;singleton:=
+ true
+Eclipse-ExtensibleAPI: true
+
+

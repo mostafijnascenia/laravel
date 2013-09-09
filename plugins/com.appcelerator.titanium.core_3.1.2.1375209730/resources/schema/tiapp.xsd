@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified" targetNamespace="http://ti.appcelerator.org"
+	xmlns:ti="http://ti.appcelerator.org">
+	<xs:element name="app">
+		<xs:complexType>
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element name="sdk-version" form="unqualified" type="xs:NMTOKEN" />
+				<xs:element name="deployment-targets" form="unqualified">
+					<xs:complexType>
+						<xs:choice minOccurs="0" maxOccurs="unbounded">
+							<xs:element maxOccurs="unbounded" name="target" form="unqualified">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:boolean">
+											<xs:attribute name="device" use="required">
+												<xs:simpleType>
+													<xs:restriction base="xs:NCName">
+														<xs:enumeration value="iphone">
+														</xs:enumeration>
+														<xs:enumeration value="ipad">
+														</xs:enumeration>
+														<xs:enumeration value="android">
+														</xs:enumeration>
+														<xs:enumeration value="mobileweb">
+														</xs:enumeration>
+														<xs:enumeration value="blackberry">
+														</xs:enumeration>
+														<xs:enumeration value="tizen">
+														</xs:enumeration>
+														<xs:enumeration value="ivi">
+														</xs:enumeration>
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:attribute>
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+						</xs:choice>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="id" form="unqualified" type="xs:NCName" />
+				<xs:element name="name" form="unqualified" type="xs:string" />
+				<xs:element name="version" form="unqualified" type="xs:string" />
+				<xs:element name="publisher" form="unqualified" type="xs:string" />
+				<xs:element name="url" form="unqualified" type="xs:anyURI"
+					maxOccurs="1" minOccurs="0" />
+				<xs:element name="description" form="unqualified" type="xs:string"
+					maxOccurs="1" minOccurs="0" />
+				<xs:element name="copyright" form="unqualified" type="xs:string"
+					maxOccurs="1" minOccurs="0" />
+				<xs:element name="icon" form="unqualified" type="xs:NCName" />
+				<xs:element name="persistent-wifi" form="unqualified"
+					type="xs:boolean" maxOccurs="1" minOccurs="0" />
+				<xs:element name="prerendered-icon" form="unqualified"
+					type="xs:boolean" maxOccurs="1" minOccurs="0" />
+				<xs:element name="statusbar-style" form="unqualified"
+					type="xs:NCName" maxOccurs="1" minOccurs="0" />
+				<xs:element name="statusbar-hidden" form="unqualified"
+					type="xs:boolean" maxOccurs="1" minOccurs="0" />
+				<xs:element name="fullscreen" form="unqualified" type="xs:boolean"
+					maxOccurs="1" minOccurs="0" />
+				<xs:element name="navbar-hidden" form="unqualified" type="xs:boolean"
+					maxOccurs="1" minOccurs="0" />
+				<xs:element name="analytics" form="unqualified" type="xs:boolean"
+					maxOccurs="1" minOccurs="0" />
+				<xs:element name="guid" form="unqualified" type="xs:string" />
+				<xs:element name="iphone" form="unqualified" maxOccurs="1"
+					minOccurs="0">
+					<!-- <xs:complexType>
+						<xs:choice minOccurs="0" maxOccurs="unbounded">
+							<xs:element maxOccurs="unbounded" name="orientations"
+								form="unqualified">
+								<xs:complexType>
+									<xs:choice minOccurs="0" maxOccurs="unbounded">
+										<xs:element maxOccurs="unbounded" name="orientation"
+											form="unqualified" minOccurs="1">
+											<xs:simpleType>
+												<xs:annotation>
+													<xs:documentation>Device Orientations</xs:documentation>
+												</xs:annotation>
+												<xs:restriction base="xs:NCName">
+													<xs:enumeration value="Ti.UI.PORTRAIT">
+													</xs:enumeration>
+													<xs:enumeration value="Ti.UI.UPSIDE_PORTRAIT">
+													</xs:enumeration>
+													<xs:enumeration value="Ti.UI.LANDSCAPE_LEFT">
+													</xs:enumeration>
+													<xs:enumeration value="Ti.UI.LANDSCAPE_RIGHT">
+													</xs:enumeration>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+									</xs:choice>
+									<xs:attribute name="device" use="required">
+										<xs:simpleType>
+											<xs:restriction base="xs:NCName">
+												<xs:enumeration value="iphone">
+												</xs:enumeration>
+												<xs:enumeration value="ipad">
+												</xs:enumeration>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+						</xs:choice>
+					</xs:complexType> -->
+				</xs:element>
+				<xs:element name="android" form="unqualified" maxOccurs="1"
+					minOccurs="0">
+				</xs:element>
+				<xs:element name="ios" form="unqualified" maxOccurs="1"
+					minOccurs="0">
+				</xs:element>
+				<xs:element name="mobileweb" form="unqualified"
+					maxOccurs="1" minOccurs="0">
+				</xs:element>
+				<xs:element name="blackberry" form="unqualified"
+					maxOccurs="1" minOccurs="0">
+				</xs:element>
+				<xs:element name="tizen" form="unqualified"
+					maxOccurs="1" minOccurs="0">
+				</xs:element>
+				<xs:element name="ivi" form="unqualified"
+					maxOccurs="1" minOccurs="0">
+				</xs:element>
+				<xs:element maxOccurs="unbounded" name="property" form="unqualified"
+					minOccurs="0">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute name="name" use="required" type="xs:string" />
+								<xs:attribute name="type" use="optional" type="xs:NCName" />
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="modules" form="unqualified" maxOccurs="1"
+					minOccurs="0">
+					<xs:complexType>
+						<xs:choice minOccurs="0" maxOccurs="unbounded">
+							<xs:element name="module" form="unqualified"
+								minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:NCName">
+											<xs:attribute name="platform" use="optional">
+												<xs:simpleType>
+													<xs:restriction base="xs:NCName">
+														<xs:enumeration value="iphone">
+														</xs:enumeration>
+														<xs:enumeration value="ipad">
+														</xs:enumeration>
+														<xs:enumeration value="android">
+														</xs:enumeration>
+														<xs:enumeration value="mobileweb">
+														</xs:enumeration>
+														<xs:enumeration value="blackberry">
+														</xs:enumeration>
+														<xs:enumeration value="commonjs">
+														</xs:enumeration>
+														<xs:enumeration value="tizen">
+														</xs:enumeration>
+														<xs:enumeration value="ivi">
+														</xs:enumeration>
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:attribute>
+											<xs:attribute name="version" use="optional"
+												type="xs:NMTOKEN" />
+											<xs:attribute name="deploy-type" use="optional">
+												<xs:simpleType>
+													<xs:restriction base="xs:NCName">
+														<xs:enumeration value="development">
+														</xs:enumeration>
+														<xs:enumeration value="production">
+														</xs:enumeration>
+														<xs:enumeration value="test">
+														</xs:enumeration>
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:attribute>
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+						</xs:choice>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="plugins" form="unqualified" maxOccurs="1"
+					minOccurs="0">
+					<xs:complexType>
+						<xs:choice minOccurs="0" maxOccurs="unbounded">
+							<xs:element name="plugin" form="unqualified"
+								minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:attribute name="version" use="optional"
+												type="xs:string" />
+											<xs:attribute name="platform" use="optional"
+											    type="xs:string" />
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+						</xs:choice>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
